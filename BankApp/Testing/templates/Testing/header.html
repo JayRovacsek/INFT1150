@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Bank of Newcastle</title>
+	<meta charset="utf-8"/>
+	{% load staticfiles %}
+	<link rel='stylesheet' href="{% static '/css/bootstrap.css' %}" type='text/css'/>
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+
+	<style type="text/css">
+		html
+		body {
+			height:100%
+			}
+	</style>
+</head>
+
+<body class="body" style="background-color:#CACACA">
+	<div class="container-fluid" style="min-height:95%; ">
+		<div class="row">
+			<div class="col-sm-2">
+				<img src="{% static '/images/bankOfNewcastleLogo.jpg' %}" class="img-responsive" style='max-height:200px' atl="Bank Of Newcastle">
+
+				<div class="well bs-sidebar" id="sidebar">
+					<ul class="navbar-nav nav-pills nav-stacked">
+						<li role="Home" class="active"><a href="#">Home</a></li>
+						<li role="Accounts"><a href="/accounts/">Accounts</a></li>
+						<li role="BPAY"><a href="/bpay/">BPAY</a></li>
+						<li role="History"><a href="/history/">History</a></li>
+						<li role="Services"><a href="/services/">Services</a></li>
+						<li role="Messages"><a href="/messages/">Messages</a></li>
+						<li role="About"><a href="/about/">About</a>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-10">
+					<img src="{% static '/images/bankOfNewcastleBanner.jpg' %}" class="img-responsive" style='max-height:200px' atl="Bank Of Newcastle">
+					<div class="container-fluid">
+						{% block content %}
+						{% endblock %}
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<hr>
+		<div class="container-fluid" style="margin-left:10px">
+			<p>This would be a copyright section, however I much preffer copyleft.<br>Due to this, this page is distributed under the GPLv3 license<br>
+				This can be read at the website: <a href="https://www.gnu.org/licenses/gpl.html" GNU.org>GNU.org</a> an advocate for the freedom of all users.
+			</p>
+		</div>
+	</footer>
+</body>
+
+</html>
