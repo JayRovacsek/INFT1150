@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class HomepageConfig(AppConfig):
+class homepageConfig(AppConfig):
     name = 'homepage'
