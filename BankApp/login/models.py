@@ -3,6 +3,7 @@ from django.db import models
 
 class Customer(models.Model):
     customer_ID = models.CharField(primary_key=True, max_length=12)
+    contactID = models.ForeignKey(Address.contactID, on_delete=models.CASCADE)
     customer_description = models.CharField(max_length=1000)
     accountID = models.ForeignKey(Account.accountID, on_delete=models.CASCADE)
 
