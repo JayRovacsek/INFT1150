@@ -27,7 +27,7 @@ class Account(models.Model):
     accountID = models.CharField(primary_key=True, max_length=12)
     account_BSB = models.ForeignKey(Bank, on_delete=models.CASCADE)
     account_type = models.CharField(max_length=20)
-    account_balance = models.CharField(max_length=100000000)
+    account_balance = models.CharField(max_length=1)
     account_description = models.CharField(max_length=100)
 
 
