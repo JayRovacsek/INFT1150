@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'login.apps.loginConfig',
 	'homepage.apps.homepageConfig',
 	'testing.apps.testingConfig',
     'django.contrib.admin',
@@ -76,10 +77,12 @@ WSGI_APPLICATION = 'BankApp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
+PROJECT_DIR = os.path.abspath(os.path.dirname(__file__))
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(PROJECT_DIR, 'bankdatabase.db'),
+        'CONN_MAX_AGE':0,
     }
 }
 
