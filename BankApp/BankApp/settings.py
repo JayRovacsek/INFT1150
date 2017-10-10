@@ -80,9 +80,12 @@ WSGI_APPLICATION = 'BankApp.wsgi.application'
 PROJECT_DIR = os.path.abspath(os.path.dirname(__file__))
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_DIR, 'bankdatabase.db'),
-        'CONN_MAX_AGE':0,
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'bank_database',
+        'USER': 'root',
+		'PASSWORD': 'ebsql',
+		'HOST': 'localhost',
+		'PORT': '3306',
     }
 }
 
