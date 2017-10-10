@@ -1,0 +1,90 @@
+2017-10-10T09:36:50.956521Z 0 [Warning] option 'read_buffer_size': unsigned value 0 adjusted to 8192
+2017-10-10T09:36:50.956521Z 0 [Warning] option 'read_rnd_buffer_size': unsigned value 0 adjusted to 1
+2017-10-10T09:36:50.956521Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-10-10T09:36:50.956521Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-10-10T09:36:50.957513Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.19-log) starting as process 2516 ...
+2017-10-10T09:36:50.965538Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-10-10T09:36:50.965538Z 0 [Note] InnoDB: Uses event mutexes
+2017-10-10T09:36:50.965538Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-10-10T09:36:50.965538Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-10-10T09:36:50.966534Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2017-10-10T09:36:50.966534Z 0 [Note] InnoDB: Number of pools: 1
+2017-10-10T09:36:50.966534Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-10-10T09:36:50.969524Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2017-10-10T09:36:50.970525Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-10-10T09:36:50.991547Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-10-10T09:36:51.026581Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-10-10T09:36:51.026581Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-10-10T09:36:51.061615Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-10-10T09:36:51.070640Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-10-10T09:36:51.071627Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-10-10T09:36:51.072625Z 0 [Note] InnoDB: Waiting for purge to start
+2017-10-10T09:36:51.125306Z 0 [Note] InnoDB: 5.7.19 started; log sequence number 2539960
+2017-10-10T09:36:51.125306Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2017-10-10T09:36:51.125306Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-10-10T09:36:51.134320Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-10-10T09:36:51.134320Z 0 [Note] InnoDB: Buffer pool(s) load completed at 171010 20:36:51
+2017-10-10T09:36:51.134320Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-10-10T09:36:51.135307Z 0 [Note] IPv6 is available.
+2017-10-10T09:36:51.135307Z 0 [Note]   - '::' resolves to '::';
+2017-10-10T09:36:51.135307Z 0 [Note] Server socket created on IP: '::'.
+2017-10-10T09:36:51.161784Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-10-10T09:36:51.161784Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.19-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-10-10T09:36:51.162785Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-10-10T09:36:51.162785Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-10-10T09:36:51.182822Z 0 [Note] End of list of non-natively partitioned tables
+2017-10-10T09:36:52.075552Z 3 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2017-10-10T09:37:02.837938Z 5 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2017-10-10T09:45:13.190288Z 0 [Warning] option 'read_buffer_size': unsigned value 0 adjusted to 8192
+2017-10-10T09:45:13.190288Z 0 [Warning] option 'read_rnd_buffer_size': unsigned value 0 adjusted to 1
+2017-10-10T09:45:13.190288Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-10-10T09:45:13.190288Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-10-10T09:45:13.199345Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.19-log) starting as process 7848 ...
+2017-10-10T09:45:13.210345Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-10-10T09:45:13.211346Z 0 [Note] InnoDB: Uses event mutexes
+2017-10-10T09:45:13.211346Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-10-10T09:45:13.211346Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-10-10T09:45:13.212347Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2017-10-10T09:45:13.213348Z 0 [Note] InnoDB: Number of pools: 1
+2017-10-10T09:45:13.213348Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-10-10T09:45:13.216351Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2017-10-10T09:45:13.217352Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-10-10T09:45:13.269021Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-10-10T09:45:13.270010Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2539979
+2017-10-10T09:45:13.270010Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2539988
+2017-10-10T09:45:13.271012Z 0 [Note] InnoDB: Database was not shutdown normally!
+2017-10-10T09:45:13.271012Z 0 [Note] InnoDB: Starting crash recovery.
+2017-10-10T09:45:13.462986Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-10-10T09:45:13.462986Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-10-10T09:45:13.463987Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-10-10T09:45:13.541061Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-10-10T09:45:13.549069Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-10-10T09:45:13.550070Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-10-10T09:45:13.550070Z 0 [Note] InnoDB: Waiting for purge to start
+2017-10-10T09:45:13.601118Z 0 [Note] InnoDB: 5.7.19 started; log sequence number 2539988
+2017-10-10T09:45:13.601118Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Ethan\Documents\GitHub\INFT1150\mySQL\Data\ib_buffer_pool
+2017-10-10T09:45:13.601118Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-10-10T09:45:13.613144Z 0 [Note] InnoDB: Buffer pool(s) load completed at 171010 20:45:13
+2017-10-10T09:45:13.622155Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-10-10T09:45:13.622155Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-10-10T09:45:13.622155Z 0 [Note] IPv6 is available.
+2017-10-10T09:45:13.623139Z 0 [Note]   - '::' resolves to '::';
+2017-10-10T09:45:13.623139Z 0 [Note] Server socket created on IP: '::'.
+2017-10-10T09:45:14.229721Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-10-10T09:45:14.230722Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.19-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-10-10T09:45:14.230722Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-10-10T09:45:14.231723Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-10-10T09:45:14.487310Z 0 [Note] End of list of non-natively partitioned tables
+2017-10-10T09:45:20.672915Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2017-10-10T09:45:24.451425Z 4 [Warning] InnoDB: Cannot open table bank_database/auth_group from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-10T09:45:24.458443Z 4 [Warning] InnoDB: Cannot open table bank_database/auth_group_permissions from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-10T09:45:24.464449Z 4 [Warning] InnoDB: Cannot open table bank_database/auth_permission from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-10T09:45:24.470455Z 4 [Warning] InnoDB: Cannot open table bank_database/auth_user from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-10T09:45:24.477459Z 4 [Warning] InnoDB: Cannot open table bank_database/auth_user_groups from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-10T09:45:24.482611Z 4 [Warning] InnoDB: Cannot open table bank_database/auth_user_user_permissions from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-10T09:45:24.489617Z 4 [Warning] InnoDB: Cannot open table bank_database/django_admin_log from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-10T09:45:24.495623Z 4 [Warning] InnoDB: Cannot open table bank_database/django_content_type from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-10T09:45:24.501629Z 4 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-10T09:45:24.507635Z 4 [Warning] InnoDB: Cannot open table bank_database/sampletable from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
