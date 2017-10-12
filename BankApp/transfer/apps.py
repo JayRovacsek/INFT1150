@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class TransferConfig(AppConfig):
+class transferConfig(AppConfig):
     name = 'transfer'

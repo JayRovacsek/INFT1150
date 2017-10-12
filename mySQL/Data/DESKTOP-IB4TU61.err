@@ -1,0 +1,388 @@
+2017-10-11T11:18:03.508193Z 0 [Warning] option 'read_buffer_size': unsigned value 0 adjusted to 8192
+2017-10-11T11:18:03.508193Z 0 [Warning] option 'read_rnd_buffer_size': unsigned value 0 adjusted to 1
+2017-10-11T11:18:03.508193Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-10-11T11:18:03.508193Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-10-11T11:18:03.508193Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.19-log) starting as process 12724 ...
+2017-10-11T11:18:03.523801Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-10-11T11:18:03.523801Z 0 [Note] InnoDB: Uses event mutexes
+2017-10-11T11:18:03.523801Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-10-11T11:18:03.523801Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-10-11T11:18:03.523801Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2017-10-11T11:18:03.523801Z 0 [Note] InnoDB: Number of pools: 1
+2017-10-11T11:18:03.523801Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-10-11T11:18:03.523801Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2017-10-11T11:18:03.523801Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-10-11T11:18:03.586259Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-10-11T11:18:03.805045Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-10-11T11:18:03.805045Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-10-11T11:18:03.851996Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-10-11T11:18:03.851996Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-10-11T11:18:03.851996Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-10-11T11:18:03.851996Z 0 [Note] InnoDB: Waiting for purge to start
+2017-10-11T11:18:03.914540Z 0 [Note] InnoDB: 5.7.19 started; log sequence number 2540016
+2017-10-11T11:18:03.914540Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-10-11T11:18:03.914540Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Django\INFT1150\mySQL\Data\ib_buffer_pool
+2017-10-11T11:18:03.914540Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-10-11T11:18:03.914540Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-10-11T11:18:03.914540Z 0 [Note] InnoDB: Buffer pool(s) load completed at 171011 22:18:03
+2017-10-11T11:18:03.914540Z 0 [Note] IPv6 is available.
+2017-10-11T11:18:03.914540Z 0 [Note]   - '::' resolves to '::';
+2017-10-11T11:18:03.929985Z 0 [Note] Server socket created on IP: '::'.
+2017-10-11T11:18:03.976924Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-10-11T11:18:03.976924Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.19-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-10-11T11:18:03.976924Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-10-11T11:18:03.976924Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-10-11T11:18:04.008170Z 0 [Note] End of list of non-natively partitioned tables
+2017-10-11T11:18:44.227594Z 4 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T11:18:53.805373Z 5 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T11:19:24.853316Z 6 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2017-10-11T11:19:50.119432Z 8 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T11:20:04.275869Z 10 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T11:21:42.293190Z 12 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T11:21:42.355753Z 12 [Note] Aborted connection 12 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T11:21:47.808950Z 13 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T11:21:51.824647Z 15 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T11:22:05.277998Z 16 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2017-10-11T11:23:03.481194Z 21 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2017-10-11T11:25:18.265733Z 15 [Note] Aborted connection 15 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T11:25:22.312693Z 23 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T11:25:46.172506Z 25 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T11:28:34.116959Z 25 [Note] Aborted connection 25 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T11:28:57.907238Z 27 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T11:32:17.000525Z 29 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T19:27:04.076426Z 20 [Note] Aborted connection 20 to db: 'unconnected' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2017-10-11T19:32:17.003717Z 29 [Note] Aborted connection 29 to db: 'bank_database' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2017-10-11T21:03:11.301886Z 31 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:12:11.998768Z 33 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:15:45.502523Z 36 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:16:16.843861Z 36 [Note] Aborted connection 36 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:16:17.815578Z 38 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:17:34.297375Z 38 [Note] Aborted connection 38 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:21:55.805861Z 45 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:23:40.198302Z 48 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:24:49.298385Z 48 [Note] Aborted connection 48 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:24:50.850875Z 50 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:26:21.030112Z 50 [Note] Aborted connection 50 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:26:22.951147Z 52 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:27:52.055206Z 52 [Note] Aborted connection 52 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:27:53.702718Z 54 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:27:59.044690Z 56 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:33:39.696671Z 56 [Note] Aborted connection 56 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:33:50.490625Z 59 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:34:15.272791Z 59 [Note] Aborted connection 59 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:34:16.850024Z 61 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:35:16.477970Z 61 [Note] Aborted connection 61 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:35:18.156496Z 63 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:35:26.007703Z 63 [Note] Aborted connection 63 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:35:27.554365Z 65 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:36:28.710688Z 65 [Note] Aborted connection 65 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:36:30.262466Z 67 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:37:05.553835Z 67 [Note] Aborted connection 67 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:37:38.134779Z 70 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:39:09.448867Z 70 [Note] Aborted connection 70 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:39:11.027029Z 72 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:39:49.011036Z 72 [Note] Aborted connection 72 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:39:50.803079Z 74 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:40:16.335742Z 74 [Note] Aborted connection 74 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:40:17.842570Z 76 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:40:47.638084Z 76 [Note] Aborted connection 76 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:40:49.310941Z 78 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:41:04.122195Z 78 [Note] Aborted connection 78 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:41:05.833681Z 80 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:41:53.535242Z 82 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:42:04.674716Z 82 [Note] Aborted connection 82 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:42:06.280083Z 84 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:45:46.066556Z 84 [Note] Aborted connection 84 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:45:47.817354Z 86 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:46:09.217847Z 86 [Note] Aborted connection 86 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:46:10.861443Z 88 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T21:47:15.119404Z 88 [Note] Aborted connection 88 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T21:47:33.312148Z 90 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:00:02.737746Z 90 [Note] Aborted connection 90 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:00:04.842760Z 92 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:01:47.677096Z 92 [Note] Aborted connection 92 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:01:49.267920Z 96 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:02:20.954522Z 96 [Note] Aborted connection 96 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:02:22.513624Z 98 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:03:06.991915Z 98 [Note] Aborted connection 98 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:03:08.625749Z 100 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:04:29.797082Z 100 [Note] Aborted connection 100 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:04:31.402583Z 102 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:04:56.833696Z 102 [Note] Aborted connection 102 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:04:58.400610Z 104 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:05:26.774633Z 106 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:05:37.520459Z 108 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:06:13.734443Z 108 [Note] Aborted connection 108 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:06:15.234954Z 110 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:06:44.719358Z 110 [Note] Aborted connection 110 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:06:46.241351Z 112 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:07:32.309547Z 112 [Note] Aborted connection 112 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:07:33.791516Z 114 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:08:08.218884Z 114 [Note] Aborted connection 114 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:08:09.812698Z 116 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:08:28.633772Z 116 [Note] Aborted connection 116 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:08:30.190928Z 118 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:08:38.030026Z 118 [Note] Aborted connection 118 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:08:39.678869Z 120 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:12:11.672805Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2017-10-11T22:12:11.673305Z 0 [Note] Giving 2 client threads a chance to die gracefully
+2017-10-11T22:12:11.673791Z 0 [Note] Shutting down slave threads
+2017-10-11T22:12:13.674800Z 0 [Note] Forcefully disconnecting 2 remaining clients
+2017-10-11T22:12:13.674800Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 94  user: 'root'
+
+2017-10-11T22:12:13.675775Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 93  user: 'root'
+
+2017-10-11T22:12:13.676264Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2017-10-11T22:12:13.676755Z 0 [Note] Binlog end
+2017-10-11T22:12:13.678700Z 0 [Note] Shutting down plugin 'ngram'
+2017-10-11T22:12:13.678700Z 0 [Note] Shutting down plugin 'partition'
+2017-10-11T22:12:13.679193Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2017-10-11T22:12:13.679193Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2017-10-11T22:12:13.679682Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-10-11T22:12:13.679682Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-10-11T22:12:13.680169Z 0 [Note] Shutting down plugin 'MyISAM'
+2017-10-11T22:12:13.680169Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2017-10-11T22:12:13.680654Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-10-11T22:12:13.681145Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-10-11T22:12:13.681145Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-10-11T22:12:13.681634Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-10-11T22:12:13.681634Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-10-11T22:12:13.682123Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-10-11T22:12:13.682123Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-10-11T22:12:13.682614Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-10-11T22:12:13.682614Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-10-11T22:12:13.683102Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-10-11T22:12:13.683102Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-10-11T22:12:13.683596Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-10-11T22:12:13.683596Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-10-11T22:12:13.684086Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-10-11T22:12:13.684086Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-10-11T22:12:13.684565Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-10-11T22:12:13.684565Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2017-10-11T22:12:13.685056Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-10-11T22:12:13.685542Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-10-11T22:12:13.685542Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-10-11T22:12:13.686028Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-10-11T22:12:13.686028Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-10-11T22:12:13.686523Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-10-11T22:12:13.686523Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-10-11T22:12:13.687005Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-10-11T22:12:13.687492Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2017-10-11T22:12:13.687492Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-10-11T22:12:13.687980Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-10-11T22:12:13.687980Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2017-10-11T22:12:13.688469Z 0 [Note] Shutting down plugin 'InnoDB'
+2017-10-11T22:12:13.688469Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2017-10-11T22:12:13.688961Z 0 [Note] InnoDB: Starting shutdown...
+2017-10-11T22:12:13.789539Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Django\INFT1150\mySQL\Data\ib_buffer_pool
+2017-10-11T22:12:13.791498Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 171012  9:12:13
+2017-10-11T22:12:14.911159Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2540060
+2017-10-11T22:12:14.912639Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-10-11T22:12:14.919449Z 0 [Note] Shutting down plugin 'MEMORY'
+2017-10-11T22:12:14.919449Z 0 [Note] Shutting down plugin 'CSV'
+2017-10-11T22:12:14.919941Z 0 [Note] Shutting down plugin 'sha256_password'
+2017-10-11T22:12:14.919941Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2017-10-11T22:12:14.920421Z 0 [Note] Shutting down plugin 'binlog'
+2017-10-11T22:12:14.936227Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2017-10-11T22:14:06.894560Z 0 [Warning] option 'read_buffer_size': unsigned value 0 adjusted to 8192
+2017-10-11T22:14:06.894560Z 0 [Warning] option 'read_rnd_buffer_size': unsigned value 0 adjusted to 1
+2017-10-11T22:14:06.894560Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-10-11T22:14:06.894560Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-10-11T22:14:06.897477Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.19-log) starting as process 9084 ...
+2017-10-11T22:14:06.904792Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-10-11T22:14:06.905276Z 0 [Note] InnoDB: Uses event mutexes
+2017-10-11T22:14:06.905276Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-10-11T22:14:06.905768Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-10-11T22:14:06.906252Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2017-10-11T22:14:06.906742Z 0 [Note] InnoDB: Number of pools: 1
+2017-10-11T22:14:06.906742Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-10-11T22:14:06.909205Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2017-10-11T22:14:06.910647Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-10-11T22:14:06.946800Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-10-11T22:14:07.042487Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-10-11T22:14:07.043991Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-10-11T22:14:07.102562Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-10-11T22:14:07.106949Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-10-11T22:14:07.107437Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-10-11T22:14:07.107933Z 0 [Note] InnoDB: Waiting for purge to start
+2017-10-11T22:14:07.158721Z 0 [Note] InnoDB: 5.7.19 started; log sequence number 2540060
+2017-10-11T22:14:07.159204Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-10-11T22:14:07.159699Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Django\INFT1150\mySQL\Data\ib_buffer_pool
+2017-10-11T22:14:07.184090Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-10-11T22:14:07.185072Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-10-11T22:14:07.186532Z 0 [Note] IPv6 is available.
+2017-10-11T22:14:07.186532Z 0 [Note]   - '::' resolves to '::';
+2017-10-11T22:14:07.187026Z 0 [Note] Server socket created on IP: '::'.
+2017-10-11T22:14:07.192419Z 0 [Note] InnoDB: Buffer pool(s) load completed at 171012  9:14:07
+2017-10-11T22:14:07.263201Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-10-11T22:14:07.265383Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.19-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-10-11T22:14:07.267102Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-10-11T22:14:07.267614Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-10-11T22:14:07.329606Z 0 [Note] End of list of non-natively partitioned tables
+2017-10-11T22:14:53.618505Z 4 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:35.571398Z 5 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:56.583462Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_group from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:56.588833Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_group_permissions from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:56.591276Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_permission from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:56.592736Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:56.594694Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user_groups from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:56.596738Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user_user_permissions from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:56.598593Z 8 [Warning] InnoDB: Cannot open table bank_database/django_admin_log from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:56.600064Z 8 [Warning] InnoDB: Cannot open table bank_database/django_content_type from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:56.602022Z 8 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:15:56.603982Z 8 [Warning] InnoDB: Cannot open table bank_database/django_session from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:16:00.619695Z 8 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:16:00.623090Z 8 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:16:53.538059Z 8 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:16:53.540509Z 8 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:16:53.542955Z 8 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:40.456362Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_group from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:40.458337Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_group from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:43.982311Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_group_permissions from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:43.984269Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_group_permissions from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:44.542383Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_permission from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:44.544336Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_permission from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:45.662515Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:45.663991Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:46.094659Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user_groups from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:46.096634Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user_groups from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:46.942808Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user_user_permissions from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:46.944771Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user_user_permissions from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:48.464325Z 8 [Warning] InnoDB: Cannot open table bank_database/django_admin_log from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:48.465818Z 8 [Warning] InnoDB: Cannot open table bank_database/django_admin_log from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:49.030749Z 8 [Warning] InnoDB: Cannot open table bank_database/django_content_type from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:49.032217Z 8 [Warning] InnoDB: Cannot open table bank_database/django_content_type from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:49.895017Z 8 [Warning] InnoDB: Cannot open table bank_database/django_session from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:17:49.896971Z 8 [Warning] InnoDB: Cannot open table bank_database/django_session from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:05.863549Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_group from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:05.866489Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_group_permissions from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:05.868435Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_permission from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:05.870393Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:05.872335Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user_groups from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:05.873806Z 8 [Warning] InnoDB: Cannot open table bank_database/auth_user_user_permissions from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:05.875761Z 8 [Warning] InnoDB: Cannot open table bank_database/django_admin_log from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:05.877705Z 8 [Warning] InnoDB: Cannot open table bank_database/django_content_type from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:05.879656Z 8 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:05.882097Z 8 [Warning] InnoDB: Cannot open table bank_database/django_session from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:18:46.501456Z 10 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:32.799360Z 14 [Warning] InnoDB: Cannot open table bank_database/django_migrations from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:49.589203Z 11 [ERROR] InnoDB: Table `bank_database`.`auth_group` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:49.592614Z 11 [ERROR] InnoDB: Table `bank_database`.`auth_group_permissions` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:49.595052Z 11 [ERROR] InnoDB: Table `bank_database`.`auth_permission` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:49.597492Z 11 [ERROR] InnoDB: Table `bank_database`.`auth_user` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:49.599933Z 11 [ERROR] InnoDB: Table `bank_database`.`auth_user_groups` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:49.602380Z 11 [ERROR] InnoDB: Table `bank_database`.`auth_user_user_permissions` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:49.604820Z 11 [ERROR] InnoDB: Table `bank_database`.`django_admin_log` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:49.606772Z 11 [ERROR] InnoDB: Table `bank_database`.`django_content_type` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:49.610193Z 11 [ERROR] InnoDB: Table `bank_database`.`django_migrations` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:22:49.612147Z 11 [ERROR] InnoDB: Table `bank_database`.`django_session` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-10-11T22:25:17.074188Z 15 [Note] Aborted connection 15 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-11T22:25:26.024047Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2017-10-11T22:25:26.024537Z 0 [Note] Giving 4 client threads a chance to die gracefully
+2017-10-11T22:25:26.025058Z 0 [Note] Shutting down slave threads
+2017-10-11T22:25:28.026041Z 0 [Note] Forcefully disconnecting 4 remaining clients
+2017-10-11T22:25:28.026041Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 6  user: 'root'
+
+2017-10-11T22:25:28.026528Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 7  user: 'root'
+
+2017-10-11T22:25:28.027017Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 8  user: 'root'
+
+2017-10-11T22:25:28.027506Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 11  user: 'root'
+
+2017-10-11T22:25:28.027991Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2017-10-11T22:25:28.028486Z 0 [Note] Binlog end
+2017-10-11T22:25:28.030442Z 0 [Note] Shutting down plugin 'ngram'
+2017-10-11T22:25:28.030442Z 0 [Note] Shutting down plugin 'partition'
+2017-10-11T22:25:28.030930Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2017-10-11T22:25:28.030930Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2017-10-11T22:25:28.031412Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-10-11T22:25:28.031412Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-10-11T22:25:28.031899Z 0 [Note] Shutting down plugin 'MyISAM'
+2017-10-11T22:25:28.031899Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2017-10-11T22:25:28.032395Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-10-11T22:25:28.032881Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-10-11T22:25:28.032881Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-10-11T22:25:28.033362Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-10-11T22:25:28.033362Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-10-11T22:25:28.033854Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-10-11T22:25:28.034335Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-10-11T22:25:28.034335Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-10-11T22:25:28.034829Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-10-11T22:25:28.034829Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-10-11T22:25:28.035320Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-10-11T22:25:28.035320Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-10-11T22:25:28.035808Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-10-11T22:25:28.036296Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-10-11T22:25:28.036296Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-10-11T22:25:28.036793Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-10-11T22:25:28.036793Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2017-10-11T22:25:28.037273Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-10-11T22:25:28.037765Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-10-11T22:25:28.037765Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-10-11T22:25:28.038250Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-10-11T22:25:28.038250Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-10-11T22:25:28.038736Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-10-11T22:25:28.038736Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-10-11T22:25:28.039226Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-10-11T22:25:28.039712Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2017-10-11T22:25:28.039712Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-10-11T22:25:28.039712Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-10-11T22:25:28.040204Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2017-10-11T22:25:28.040204Z 0 [Note] Shutting down plugin 'InnoDB'
+2017-10-11T22:25:28.040692Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2017-10-11T22:25:28.041179Z 0 [Note] InnoDB: Starting shutdown...
+2017-10-11T22:25:28.141769Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Django\INFT1150\mySQL\Data\ib_buffer_pool
+2017-10-11T22:25:28.145672Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 171012  9:25:28
+2017-10-11T22:25:29.056337Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2540088
+2017-10-11T22:25:29.059799Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-10-11T22:25:29.060727Z 0 [Note] Shutting down plugin 'MEMORY'
+2017-10-11T22:25:29.061212Z 0 [Note] Shutting down plugin 'CSV'
+2017-10-11T22:25:29.061212Z 0 [Note] Shutting down plugin 'sha256_password'
+2017-10-11T22:25:29.061698Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2017-10-11T22:25:29.061698Z 0 [Note] Shutting down plugin 'binlog'
+2017-10-11T22:25:29.069229Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2017-10-11T22:26:54.830781Z 0 [Warning] option 'read_buffer_size': unsigned value 0 adjusted to 8192
+2017-10-11T22:26:54.830781Z 0 [Warning] option 'read_rnd_buffer_size': unsigned value 0 adjusted to 1
+2017-10-11T22:26:54.830781Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-10-11T22:26:54.830781Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-10-11T22:26:54.833714Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.19-log) starting as process 14228 ...
+2017-10-11T22:26:54.847372Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-10-11T22:26:54.847859Z 0 [Note] InnoDB: Uses event mutexes
+2017-10-11T22:26:54.848348Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-10-11T22:26:54.848840Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-10-11T22:26:54.849327Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2017-10-11T22:26:54.850320Z 0 [Note] InnoDB: Number of pools: 1
+2017-10-11T22:26:54.850320Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-10-11T22:26:54.853722Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2017-10-11T22:26:54.855182Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-10-11T22:26:54.889368Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-10-11T22:26:54.968987Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-10-11T22:26:54.969944Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-10-11T22:26:55.013884Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-10-11T22:26:55.018293Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-10-11T22:26:55.019258Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-10-11T22:26:55.019749Z 0 [Note] InnoDB: Waiting for purge to start
+2017-10-11T22:26:55.070526Z 0 [Note] InnoDB: 5.7.19 started; log sequence number 2540088
+2017-10-11T22:26:55.071497Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-10-11T22:26:55.071497Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Django\INFT1150\mySQL\Data\ib_buffer_pool
+2017-10-11T22:26:55.083218Z 0 [Note] InnoDB: Buffer pool(s) load completed at 171012  9:26:55
+2017-10-11T22:26:55.085667Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-10-11T22:26:55.088314Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-10-11T22:26:55.089573Z 0 [Note] IPv6 is available.
+2017-10-11T22:26:55.090057Z 0 [Note]   - '::' resolves to '::';
+2017-10-11T22:26:55.090546Z 0 [Note] Server socket created on IP: '::'.
+2017-10-11T22:26:55.150605Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-10-11T22:26:55.151099Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.19-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-10-11T22:26:55.151575Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-10-11T22:26:55.152559Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-10-11T22:26:55.220927Z 0 [Note] End of list of non-natively partitioned tables
+2017-10-11T22:28:28.376363Z 9 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2017-10-12T00:33:55.035348Z 58 [Note] Aborted connection 58 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2017-10-12T00:35:38.630912Z 60 [Note] Aborted connection 60 to db: 'bank_database' user: 'root' host: 'localhost' (Got an error reading communication packets)

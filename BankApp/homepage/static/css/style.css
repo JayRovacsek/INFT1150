@@ -1,0 +1,157 @@
+body{
+	background-color: black;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: aerial-banner;
+}
+
+ul{
+	padding:1% 0;
+	list-style: none;
+	border-radius: 15px;
+}
+
+
+h1{
+	color:black;
+	font-size: 28px;
+	text-align: center;
+}
+
+ul li{
+	float:left;
+	width: 32%;
+	height: 40%;
+	background-color: black;
+	opacity:.8;
+	text-align:center-right;
+	font-size: 20px;
+	margin: 1% 0 1% 1%;
+	border-radius: 15px;
+}
+
+ul li a{
+	margin: 2% 2% 2% 2%;
+	text-decoration:none;
+	color:white;
+	display: block;
+	text-align:center;
+}
+
+ul li a:hover{
+	background-color:green;
+	height: 105%;
+}
+ul li ul li{
+	display:none;
+}
+
+ul li:hover ul li{
+	display:block;
+	text-align: left;
+}
+
+a{
+	color:white;
+	font-family: sans-serif;
+	margin-bottom:20px;
+}
+
+a:hover {
+	color:green;
+	font-weight: bold;
+}
+
+footer{
+	float:right;
+	color: white;
+	font-family: sans-serif;
+}
+
+input[type="text"], input[type="password"]{
+	height: 200%;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 20px;	
+}
+
+form{
+	margin: 5% 30% 2%;
+	width: 40%;
+}
+
+#Main{
+	width: 100%;
+	height: 100%;
+	float:left;
+	font-weight:bold;
+	color:rgb(255, 255, 255);
+	text-align: center;
+	background-color: #000000bb;
+	border-radius: 15px 0 15px 0;
+	margin: 5% 0 5% 0;
+	opacity:0.8;
+}
+
+#Container{
+	background-color: rgba(224, 155, 170, 0.603);
+	border-radius: 15px;
+	margin: 1%;
+	height: 98%;
+	width: 98%;
+	padding-bottom: 2%;
+}
+
+#Container img{
+	resize:horizontal;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#Footer{
+	position: absolute; right: 1%; bottom: 5%;
+	clear:both;
+	text-align:right;
+	font-size:12px;
+	width: 98%;
+	color: white;
+}
+
+#Form-Container{
+	width:32%;
+	padding: 34% 5% 34% 5%;
+	font-family: aerial;
+	font-size: 16px;
+	color: #000000;
+	padding-top: 5%;
+	font-size: 35px;
+}
+
+#form-input before{
+	background-color: #00eeff;
+	position: absolute;
+	font-family: aerial;
+	font-size: 16px;
+	color: #985986;
+	padding-top: 5px;
+	font-size: 35px;
+}
+
+btn-login {
+	padding: 15px 25px;
+	color: #fff;
+	background-color: #2ECC71;
+	border: none;
+	border-radius: 4px;
+	border-bottom: 4px solid #27AE60
+}
+btn-login hover{
+	color: blue;
+	font-weight:bold;
+	Background: blue;
+}
