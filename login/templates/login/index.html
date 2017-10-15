@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bank of Newcastle</title>
+		<meta charset="utf-8"/>
+		{% load staticfiles %}
+		<link rel='stylesheet' href="{% static 'css/style.css' %}" type='text/css'/>
+		<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+	</head>
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title>Bank of Newcastle</title>
+			<meta charset="utf-8"/>
+			{% load staticfiles %}
+			<link rel='stylesheet' href="{% static 'css/style.css' %}" type='text/css'/>
+			<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+		</head>
+		<body>
+			<div id= "Container">
+				<img src="{% static '/images/logo.png' %}" alt="logo" />
+				<ul style="width: 100%; height: 40%;">
+					<li style="width: 46%; height: 40%; margin: 0 2% 2% 2%"><a url="#"> Home </a></li>
+					<li style="width: 46%; height: 40%; margin: 0 2% 2% 2%"><a> About </a></li>
+				</ul>
+
+				<div class="Form-Container">
+													
+					<form>
+						<div class="form-input">
+						<input type="text" name="username"
+							placeholder="Enter Username">
+						</div>
+						<div class="form-input">
+						<input type="password" name="password"
+							placeholder="Enter Password">
+						</div>
+						<p align="center">
+						<input TYPE="button" VALUE="LOGIN"style="margin:0px auto; display:block;"
+							onclick="window.location.href='auth'">
+						<input TYPE="button" VALUE="REGISTER" style="margin:0px auto; display:block;"
+							onclick="window.location.href=''"> <br>
+							<a href="#"> Forgot Password? </a> 
+						</p>	
+					</form>	<br>
+					
+				</div>
+				<div id = "Footer">
+					<hr>
+					Copyright &copy;2017<br>Bank of Newcastle <br>N.S.W 2300.
+				</div>	
+			</div>
+		</body>
+	</body>
+</html>
