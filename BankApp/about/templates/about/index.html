@@ -19,29 +19,14 @@
 		<body>
 			<div id= "Container">
 				<img src="{% static '/images/logo.png' %}" alt="logo" />
-				<ul style="width: 100%; height: 40%;">
-					<li class="login-menu"><a href="/">Home</a></li>
-					<li class="login-menu"><a href="/about">About</a></li>
+				<ul>
+					<li><a href='/'>Home</a></li>
+					<li><a href='/login'>Login</a></li>
+					<li><a href='#'> About</a></li>
 				</ul>
 			</div>
 			<div id="Content">
-				<div class="Form-Container">
-					<form>
-						<div class="form-input">
-						<input type="text" name="username"
-							placeholder="Enter Username">
-						</div>
-						<div class="form-input">
-						<input type="password" name="password"
-							placeholder="Enter Password">
-						</div>
-						<input TYPE="button" VALUE="LOGIN"
-							onclick="window.location.href='/transfer'" style="width:47%;margin:2% 3%;">
-						<input TYPE="button" VALUE="REGISTER"
-							onclick="window.location.href=''" style="width:46%;margin:2% 0;">
-					</form>	<br>
-					<a href="/#"> Forgot Password? </a>
-				</div>
+				<p>About details to go here</p>
 			</div>
 			<div id = "Footer">
 				<hr>

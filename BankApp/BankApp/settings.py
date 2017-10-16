@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'login.apps.loginConfig',
 	'account.apps.accountConfig',
     'transfer.apps.transferConfig',
+    'about.apps.aboutConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -78,17 +79,17 @@ WSGI_APPLICATION = 'BankApp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-PROJECT_DIR = os.path.abspath(os.path.dirname(__file__))
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bank_database',
-        'USER': 'root',
-		'PASSWORD': 'ebsql',
-		'HOST': 'localhost',
-		'PORT': '3306',
-    }
-}
+#PROJECT_DIR = os.path.abspath(os.path.dirname(__file__))
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'bank_database',
+#        'USER': 'root',
+#		'PASSWORD': 'ebsql',
+#		'HOST': 'localhost',
+#		'PORT': '3306',
+#    }
+#}
 
 
 # Password validation

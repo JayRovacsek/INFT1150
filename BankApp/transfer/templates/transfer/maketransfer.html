@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bank of Newcastle</title>
+		<meta charset="utf-8"/>
+		{% load staticfiles %}
+		<link rel='stylesheet' href="{% static 'css/style.css' %}" type='text/css'/>
+		<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id= "Container">
+			<img src="{% static '/images/logo.png' %}" alt="logo" />
+			<div id = "Navigation">
+				<ul>
+					<ul>
+						<li class="main-menu"><a>Home</a><ul><li class="sub-menu"><a>Main Menu</a></li></ul></li>
+						<li class="main-menu"><a> Accounts </a><ul><li class="sub-menu"><a>Everyday</a></li><li class="sub-menu"><a>Savings</a></li><li class="sub-menu"><a>Mortgage</a></li><li class="sub-menu"><a>Personal Loans</a></li></ul></li>
+						<li class="main-menu"><a>BPAY</a><ul><li class="sub-menu"><a>Water Bill</a></li><li class="sub-menu"><a>Electricity Bill</a></li><li class="sub-menu"><a>Land Rates</a></li><li class="sub-menu"><a>Rent</a></li><li class="sub-menu"><a>Landline/Internet</a></li><li class="sub-menu"><a>Mobile Phone</a></li></ul></li>
+						<li class="main-menu"><a> Transfer </a><ul><li class="sub-menu"><a href="maketransfer/"> External </a></li><li class="sub-menu"><a> Internal </a></li><li class="sub-menu"><a> History </a></li></ul></li>
+						<li class="main-menu"><a> History</a><ul><li class="sub-menu"><a>Debit</a></li><li class="sub-menu"><a>Credit</a></li><li class="sub-menu"><a>Transfers</a></li><li class="sub-menu"><a>BPAY</a></li></ul></li>
+						<li class="main-menu"><a> Services </a></li>
+						<li class="main-menu"><a> Messages <a/></li>
+						<li class="main-menu"><a href="/#"> Logout </a></li>
+					</ul>
+				</ul>
+			</div>
+		</div>
+		<div id= "Content">
+			<form>
+				<h1> External Transfer: <h1>
+					<div class="form-input2">
+						<label for="YourAccountNumber">Enter Your Account Number:</label>
+						<input type="number" name="Account Number"
+							placeholder="Enter Account No#"><br>
+						</div>
+							<div class="form-input2">
+						<label for="YourBSBNumber">Enter Your BSB Number:</label>
+						<input type="number" name="BSB Number"
+							placeholder="Enter BSB No#"><br>
+						</div>
+							<div class="form-input2">
+						<label for="AddMessage">Add A Message:</label>
+						<input type="text" name="Message"
+							placeholder="Enter Message"> <br>
+						</div>
+							<div class="form-input2">
+						<label for="AddMessage">Enter Recipient's Name</label>
+						<input type="text" name="recipient"
+							placeholder="Enter name"> <br>
+						</div>
+							<div class="form-input2">
+						<label for="AddMessage">Enter Recipient's Account Number:</label>
+						<input type="number" name="Account Number"
+							placeholder="Enter Account No#"><br>
+						</div>
+							<div class="form-input2">
+						<label for="AddMessage">Enter Recipient's BSB Number:</label>
+						<input type="number" name="BSB Number"
+							placeholder="Enter BSB No#"><br>
+						</div>
+							<div class="form-input2">
+						<label for="Amount">Enter Amount:</label>
+						<input type="number" name="Amount"
+							placeholder="Transfer Amount"><br>
+						</div>
+							<div class="form-input2">
+						<input TYPE="button" VALUE="Continue" style="margin:0px auto; display:block;"
+							onclick="window.location.href=''"> <br>
+						</div>
+					</form>		
+		</div>
+		<div id = "Footer">
+			<hr>
+			Copyright &copy;2017<br>Bank of Newcastle <br>N.S.W 2300.
+		</div>	
+	</body>	
+</html>
