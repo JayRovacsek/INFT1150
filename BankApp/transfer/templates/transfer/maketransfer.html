@@ -6,10 +6,14 @@
 		{% load staticfiles %}
 		<link rel='stylesheet' href="{% static 'css/style.css' %}" type='text/css'/>
 		<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+		<script src="{% static 'js/javascript.js' %}" type="text/javascript">                     
+		</script>  
 	</head>
 	<body>
-		<div id= "Container">
-			<img src="{% static '/images/logo.png' %}" alt="logo" />
+		<div id="LogoContainer">
+				<img src="{% static '/images/logo.png' %}" alt="logo" />
+		</div>
+		<div id="Container">
 			<div id = "Navigation">
 				<ul>
 					<ul>
@@ -25,18 +29,18 @@
 				</ul>
 			</div>
 		</div>
-		<div id= "Content">
+		<div id= "TransferContainer">
 			<form>
 				<h1> External Transfer: <h1>
 					<div class="form-input2">
 						<label for="YourAccountNumber">Enter Your Account Number:</label>
 						<input type="number" name="Account Number"
-							placeholder="Enter Account No#"><br>
+							placeholder="Enter Account No#" min="100000000000"><br>
 						</div>
 							<div class="form-input2">
 						<label for="YourBSBNumber">Enter Your BSB Number:</label>
 						<input type="number" name="BSB Number"
-							placeholder="Enter BSB No#"><br>
+							placeholder="Enter BSB No#" min="100000"><br>
 						</div>
 							<div class="form-input2">
 						<label for="AddMessage">Add A Message:</label>
@@ -51,17 +55,17 @@
 							<div class="form-input2">
 						<label for="AddMessage">Enter Recipient's Account Number:</label>
 						<input type="number" name="Account Number"
-							placeholder="Enter Account No#"><br>
+							placeholder="Enter Account No#" min="100000000000"><br>
 						</div>
 							<div class="form-input2">
 						<label for="AddMessage">Enter Recipient's BSB Number:</label>
 						<input type="number" name="BSB Number"
-							placeholder="Enter BSB No#"><br>
+							placeholder="Enter BSB No#" min="100000"><br>
 						</div>
 							<div class="form-input2">
 						<label for="Amount">Enter Amount:</label>
 						<input type="number" name="Amount"
-							placeholder="Transfer Amount"><br>
+							placeholder="Transfer Amount" min="0.01" oninput="setTwoNumberDecimal(this)" step="0.01"><br>
 						</div>
 							<div class="form-input2">
 						<input TYPE="button" VALUE="Continue" style="margin:0px auto; display:block;"
