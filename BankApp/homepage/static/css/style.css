@@ -81,7 +81,7 @@ ul li:hover ul li{
 }
 
 a{
-	color:white;
+	color:black;
 	font-family: sans-serif;
 	margin-bottom:20px;
 	text-align: center;
@@ -154,6 +154,16 @@ form{
 	background-color: rgb(255, 255, 255);
 	border-radius: 15px;
 	text-align: left;
+	margin: auto;
+	height: 98%;
+	width: 50%;
+	padding: 4% 0;
+}
+
+#LoginContainer{
+	background-color: rgb(255, 255, 255);
+	border-radius: 15px;
+	text-align: center;
 	margin: auto;
 	height: 98%;
 	width: 50%;
