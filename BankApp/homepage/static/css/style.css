@@ -248,3 +248,10 @@ btn-login hover{
 	height: 40%; 
 	margin: 0 2% 2% 2%
 }
+
+img.icons
+{
+	display: block;
+	margin: auto;
+	width: auto;
+}
