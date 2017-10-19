@@ -255,3 +255,17 @@ img.icons
 	margin: auto;
 	width: auto;
 }
+
+img.transferIcon1
+{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+img.transferIcon2
+{
+	width: 200px;
+	height: 395px;
+	float: right;
+}
